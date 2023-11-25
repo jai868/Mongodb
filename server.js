@@ -15,7 +15,7 @@ let port = process.env.PORT || 8081
 //import fetch insert update delete modules
 let fetch = require('./fetch/fetch')
 let insert = require('./insert/insert')
-let update = require('./update/udate')
+let update = require('./update/update')
 let remov = require('./delete/delete')
 //use above modules
 app.use("/fetch", fetch)
