@@ -32,7 +32,7 @@ router.get("/", (req,res)=> {
 
 
 //User login Authentication
-router.post('./auth',(req,res)=> {
+router.post('/auth',(req,res)=> {
     let uname=req.body.uname
     let upwd=req.body.upwd
     let obj={uname,upwd}
